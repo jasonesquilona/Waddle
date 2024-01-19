@@ -2,8 +2,26 @@
     background-color: #efd3d7 !important;
 }
 
-.navbar{
+.nav-link{
     font-weight: bold;
     font-size:x-large;
+    color: #8E9AAF !important;
+}
+
+.nav-link:hover{
+    color: #9DA9FF!important;
     text-decoration: underline;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+  
+.dropdown>.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+
+.mat-icon {
+    vertical-align: middle;
 }

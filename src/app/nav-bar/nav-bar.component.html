@@ -1,25 +1,29 @@
-<nav class="navbar navbar-expand-lg bg-light">
+<nav class="navbar navbar-expand-lg bg-light py-3 py-lg-4">
     <div class="container-fluid">
         <a class="navbar-brand" href="#"> 
-            <img src ="../../assets/logo.png" alt="Bootstrap" width="auto"/>
+            <img src ="../../assets/logo.png" alt="Bootstrap" width="110%"/>
         </a>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <ul class="navbar-nav me-auto ms-auto nav-fill w-50">
             <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link" role="button" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link" href="#">Features</a>
+                  <a class="nav-link" role="button" href="#">Features</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link" href="#">About Us</a>
+                  <a class="nav-link" role="button" href="#">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" role="button" href="#">Q&A</a>
               </li>
         </ul>
         <div class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-bs-target="#navbar" aria-label="Toggle navigation" aria-controls="navbarSupportedContent"  aria-haspopup="true"ms-auto>
-              Login/Register
+                <mat-icon aria-hidden = "false" fontIcon = "account_circle">                             
+                </mat-icon> Login/Register
             </a>
-            <ul class="dropdown-menu dropdown-menu-end">
+            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton">
               <li><a class="dropdown-item" href="#">Login</a></li>
               <li><a class="dropdown-item" href="#">Register</a></li>
             </ul>
@@ -27,3 +31,15 @@
       </div>
     </div>
 </nav>
+<div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-light p-3 rounded-2" tabindex="0">
+    <app-home-page></app-home-page>
+    <p>...</p>
+    <h4 id="scrollspyHeading2">Second heading</h4>
+    <p>...</p>
+    <h4 id="scrollspyHeading3">Third heading</h4>
+    <p>...</p>
+    <h4 id="scrollspyHeading4">Fourth heading</h4>
+    <p>...</p>
+    <h4 id="scrollspyHeading5">Fifth heading</h4>
+    <p>...</p>
+ </div>
