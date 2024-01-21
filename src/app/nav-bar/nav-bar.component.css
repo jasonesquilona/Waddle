@@ -9,7 +9,12 @@
 }
 
 .nav-link:hover{
-    color: #9DA9FF!important;
+    color: #9DA9FF !important;
+    text-decoration: underline;
+}
+
+.active{
+    color: #9DA9FF !important;
     text-decoration: underline;
 }
 

@@ -1,3 +1,36 @@
-*{
-    background: #cbc0d3;
+/* Center align the text within the three columns below the carousel */
+.second-part .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
 }
+.second-part h2 {
+font-weight: 400;
+}
+/* rtl:begin:ignore */
+.second-part .col-lg-4 p {
+ margin-right: .75rem;
+ margin-left: .75rem;
+}
+
+/* Carousel base class */
+.carousel {
+    margin-bottom: 4rem;
+  }
+  /* Since positioning the image, we need to help out the caption */
+  .carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+  }
+  
+  /* Declare heights because of positioning of img element */
+  .carousel-item {
+    height: 50rem;
+  }
+  .carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 32rem;
+  }
+  
