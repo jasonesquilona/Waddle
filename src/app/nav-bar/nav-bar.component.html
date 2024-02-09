@@ -11,7 +11,7 @@
                   <a class="nav-link" role="button" href="#scrollspyHeading2">Features</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link" role="button" href="#">About Us</a>
+                  <a class="nav-link" role="button" href="#scrollspyHeading3">About Us</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" role="button" href="#">Q&A</a>
@@ -23,10 +23,12 @@
                 </mat-icon> Login/Register
             </a>
             <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton">
-              <li><a class="dropdown-item" href="#">Login</a></li>
+              <li><a class="dropdown-item" href="#login-page.component.html"  routerLink="/LoginPage" routerLinkActive="active">Login</a></li>
               <li><a class="dropdown-item" href="#">Register</a></li>
             </ul>
         </div>
       </div>
     </div>
 </nav>
+
+<router-outlet></router-outlet>
